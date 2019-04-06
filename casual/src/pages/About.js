@@ -5,7 +5,8 @@ import {  MDBRow, MDBCol, MDBCard, MDBAvatar, MDBCardBody, MDBIcon } from "mdbre
 class About extends React.Component {
   render() {
     return(
-      <div>
+      <div >
+        <Navbar></Navbar>
         <MDBCard className="my-5 px-5 pb-5 text-center">
                <MDBCardBody>
                  <h2 className="h1-responsive font-weight-bold my-5">

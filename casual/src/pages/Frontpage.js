@@ -14,64 +14,46 @@ class Frontpage extends React.Component {
   render() {
     return(
       <div>
-          <div className="bg">
-            <MDBMask className="flex-center flex-column text-white text-center">
-                <h2>Casual</h2>
-                <p>This is casual sample page</p>
-              </MDBMask>
-          </div>
-          <MDBCard className="my-5 px-5 pb-5">
-        <MDBCardBody className="text-center">
-          <MDBRow>
-            <MDBCol lg="4" md="12" className="mb-lg-0 mb-4">
-              <MDBView hover className="rounded z-depth-2 mb-4" waves>
-                <MDBMask overlay="white-slight" />
-              </MDBView>
-              <MDBIcon icon="cog" size="lg"/>
-              <h4 className="font-weight-bold mb-3">
-                <strong>Service</strong>
-              </h4>
-              <p className="dark-grey-text">
-                Nam libero tempore, cum soluta nobis est eligendi optio cumque
-                nihil impedit quo minus id quod maxime placeat facere possimus
-                voluptas.
-              </p>
-              <MDBBtn color="pink" rounded size="md">
-                Read more
-              </MDBBtn>
-            </MDBCol>
-            <MDBCol lg="4" md="12" className="mb-lg-0 mb-4">
-              <MDBView hover className="rounded z-depth-2 mb-4" waves>
-                <MDBMask overlay="white-slight" />
-              </MDBView>
-              <MDBIcon icon="hammer" size="lg"/>
-              <h4 className="font-weight-bold mb-3">
-                <strong>Service</strong>
-              </h4>
-              <p className="dark-grey-text">
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                blanditiis voluptatum deleniti atque corrupti quos dolores.
-              </p>
-              <MDBBtn color="deep-orange" rounded size="md">
-                Read more
-              </MDBBtn>
-            </MDBCol>
-            <MDBCol lg="4" md="12" className="mb-lg-0 mb-4">
-              <MDBView hover className="rounded z-depth-2 mb-4" waves>
-                <MDBMask overlay="white-slight" />
-              </MDBView>
-              <MDBIcon icon="toolbox" size="lg"/>
-              <h4 className="font-weight-bold mb-3">
-                <strong>Service</strong>
-              </h4>
-              <p className="dark-grey-text">
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-                aut fugit, sed quia consequuntur magni dolores eos qui ratione.
-              </p>
-              <MDBBtn color="info" rounded size="md">
-                Read more
-              </MDBBtn>
-            </MDBCol>
+          <div className="bg" style={{zIndex:"-100"}}>
+            <Navbar></Navbar>
+            <MDBContainer>
+              <MDBRow style={{textAlign:"left"}}>
+                <MDBCol md="5" className="my-5 px-5">
+                  <p style={{fontSize:"3.4em",color:"white"}}>
+                    THIS IS CASUAL SAMPLE PAGE.
+                  </p>
+                  <MDBBtn style={{top:"-20px"}} color="info" id="btn"className="justify-content-center" rounded size="md">
+                    Read more
+                  </MDBBtn>
+                </MDBCol>
+              </MDBRow>
+              </MDBContainer>
+            </div>
+          <MDBCard>
+            <MDBCardBody style={{fontSize:"0.8em"}}>
+              <MDBRow className="justify-content-center py-5">
+                <MDBIcon fab icon="autoprefixer" />
+                <MDBCol lg="4" md="12" style={{textAlign:"left"}}>
+                  <h4 style={{fontSize:"1.4em", fontFamily:"'Raleway', sans-serif"}}>
+                    <strong>SERVICE</strong>
+                  </h4>
+                  <p style={{fontFamily:"'Raleway', sans-serif"}}>
+                    Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                    nihil impedit quo minus id quod maxime placeat facere possimus
+                    voluptas.
+                  </p>
+                </MDBCol>
+                <MDBIcon icon="award" />
+                <MDBCol lg="4" md="12" style={{textAlign:"left"}}>
+                  <h4 style={{fontSize:"1.4em", fontFamily:"'Raleway', sans-serif"}}>
+                    <strong>SERVICE</strong>
+                  </h4>
+                  <p style={{fontFamily:"'Raleway', sans-serif"}}>
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                    blanditiis voluptatum deleniti atque corrupti quos dolores possimus
+                    voluptas.
+                  </p>
+                </MDBCol>
           </MDBRow>
         </MDBCardBody>
       </MDBCard>
