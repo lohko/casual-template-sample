@@ -35,7 +35,7 @@ class Frontpage extends React.Component {
                 <MDBIcon fab icon="autoprefixer" />
                 <MDBCol lg="4" md="12" style={{textAlign:"left"}}>
                   <h4 style={{fontSize:"1.4em", fontFamily:"'Raleway', sans-serif"}}>
-                    <strong>SERVICE</strong>
+                    <strong>ESITTELY</strong>
                   </h4>
                   <p style={{fontFamily:"'Raleway', sans-serif"}}>
                     Nam libero tempore, cum soluta nobis est eligendi optio cumque
@@ -46,7 +46,7 @@ class Frontpage extends React.Component {
                 <MDBIcon icon="award" />
                 <MDBCol lg="4" md="12" style={{textAlign:"left"}}>
                   <h4 style={{fontSize:"1.4em", fontFamily:"'Raleway', sans-serif"}}>
-                    <strong>SERVICE</strong>
+                    <strong>ESITTELY</strong>
                   </h4>
                   <p style={{fontFamily:"'Raleway', sans-serif"}}>
                     At vero eos et accusamus et iusto odio dignissimos ducimus qui

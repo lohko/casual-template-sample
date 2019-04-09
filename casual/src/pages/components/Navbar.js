@@ -10,14 +10,24 @@ class Navbar extends Component {
        super(props);
        this.state = {
            collapse: false,
+           selected:"",
+           selected1:""
+
        };
        this.onClick = this.onClick.bind(this);
+       this.updateSelected = this.updateSelected.bind(this);
    }
 
    onClick() {
      this.setState({
          collapse: !this.state.collapse,
        });
+   }
+   updateSelected = () => {
+     this.setState({
+       selected:"underline",
+       selected1:"underline"
+     });
    }
   render() {
   const container = {height: 1300}
@@ -35,10 +45,10 @@ class Navbar extends Component {
               <MDBCollapse isOpen = { this.state.collapse } navbar>
                 <MDBNavbarNav right>
                   <MDBNavItem>
-                      <a style={{fontSize:"0.9em", paddingRight:"12px", color:"#181819", fontFamily:"'Raleway', sans-serif"}} href="/">HOME</a>
+                      <a onClick={this.updateSelected} style={{fontSize:"0.9em", paddingRight:"12px", color:"#181819", fontFamily:"'Raleway', sans-serif"}} href="/">HOME</a>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <a style={{fontSize:"0.9em", paddingRight:"12px", color:"#181819", fontFamily:"'Raleway', sans-serif"}} href="/About">ABOUT</a>
+                    <a onClick={this.updateSelected} style={{fontSize:"0.9em", paddingRight:"12px", color:"#181819", fontFamily:"'Raleway', sans-serif"}} href="/About">ABOUT</a>
                   </MDBNavItem>
                   <MDBNavItem>
                       <a style={{fontSize:"0.9em", paddingRight:"12px", color:"#181819", fontFamily:"'Raleway', sans-serif"}} href="/Services">SERVICES</a>

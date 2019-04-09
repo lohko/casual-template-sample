@@ -13,13 +13,13 @@ import img6 from '../../styles/f.jpg'
 const Services1 = () => (
   <section className="text-center">
       <h2 className="h1-responsive font-weight-bold text-center py-20">
-        Palvelut
+        Palvelut 1
       </h2>
       <p className="grey-text text-center w-responsive mx-auto mb-5">
         Tarvitsetko yrityksellesi hintaluettelon tarjoamistanne palveluista?
       </p>
-      <MDBRow className="justify-content-center">
-        <MDBCol lg="4" md="8" className="mb-lg-0 mb-4">
+      <MDBRow className="justify-content-center" >
+        <MDBCol lg="4" md="8" className="mb-lg-0 mb-4" >
           <MDBCard wide ecommerce>
             <MDBCardImage
               cascade

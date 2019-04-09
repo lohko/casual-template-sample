@@ -18,5 +18,5 @@ body, html {
   background: transparent !important;
   color:black;
   box-shadow: none;
-  border-bottom: 1px solid black;
+  border-bottom: solid;
 }

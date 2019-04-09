@@ -1,23 +1,26 @@
 import React from 'react';
 import { MDBContainer,MDBCollapse, MDBRow, MDBCol, MDBCard, MDBCardImage, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardFooter, MDBIcon, MDBTooltip,  MDBBadge, MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBBtn } from "mdbreact";
-
+import img1 from '../../styles/a.jpg'
+import img2 from '../../styles/b.jpg'
+import img3 from '../../styles/c.jpg'
+import img4 from '../../styles/d.jpg'
+import img5 from '../../styles/e.jpg'
+import img6 from '../../styles/f.jpg'
 
 const Services2 = () => (
   <section className="text-center">
       <h2 className="h1-responsive font-weight-bold text-center py-20">
-        Services 2
+        Palvelut 2
       </h2>
       <p className="grey-text text-center w-responsive mx-auto mb-5">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
-        error amet numquam iure provident voluptate esse quasi, veritatis
-        totam voluptas nostrum quisquam eum porro a pariatur veniam.
+        Tarvitsetko yrityksellesi hintaluettelon tarjoamistanne palveluista?
       </p>
       <MDBRow className="justify-content-center">
         <MDBCol lg="4" md="8" className="mb-lg-0 mb-4">
           <MDBCard wide ecommerce>
             <MDBCardImage
               cascade
-              src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img (55).jpg"
+              src={img1}
               top
               alt="sample photo"
             />
@@ -39,7 +42,7 @@ const Services2 = () => (
           <MDBCard wide ecommerce>
             <MDBCardImage
               cascade
-              src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img (49).jpg"
+              src={img2}
               top
               alt="sample photo"
             />
@@ -61,7 +64,7 @@ const Services2 = () => (
           <MDBCard wide ecommerce>
             <MDBCardImage
               cascade
-              src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img (56).jpg"
+              src={img4}
               top
               alt="sample photo"
             />
@@ -85,7 +88,7 @@ const Services2 = () => (
           <MDBCard wide ecommerce>
             <MDBCardImage
               cascade
-              src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img (55).jpg"
+              src={img1}
               top
               alt="sample photo"
             />
@@ -107,7 +110,7 @@ const Services2 = () => (
           <MDBCard wide ecommerce>
             <MDBCardImage
               cascade
-              src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img (49).jpg"
+              src={img5}
               top
               alt="sample photo"
             />
@@ -129,7 +132,7 @@ const Services2 = () => (
           <MDBCard wide ecommerce>
             <MDBCardImage
               cascade
-              src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img (56).jpg"
+              src={img6}
               top
               alt="sample photo"
             />
