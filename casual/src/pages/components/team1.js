@@ -24,17 +24,6 @@ const team1 = () => (
   </MDBView>
     <h5 className="font-weight-bold mb-3">Example employee</h5>
     <p className="text-uppercase blue-text">Position</p>
-    <ul className="list-unstyled mb-0">
-      <a href="#!" className="p-2 fa-lg">
-        <MDBIcon fab icon="facebook-f" className="blue-text" />
-      </a>
-      <a href="#!" className="p-2 fa-lg">
-        <MDBIcon fab icon="twitter" className="blue-text" />
-      </a>
-      <a href="#!" className="p-2 fa-lg">
-        <MDBIcon fab icon="instagram" className="blue-text" />
-      </a>
-    </ul>
   </MDBCol>
 );
 export default team1;

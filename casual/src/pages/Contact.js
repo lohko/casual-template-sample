@@ -58,9 +58,9 @@ class Contact extends React.Component {
                 </div>
                 <MDBRow className="mt-5">
                   <MDBCol><MDBIcon icon="map-marker-alt" size="2x" className="info mt-5" />
-                  <p>San Francisco, CA 94126, USA</p></MDBCol>
+                  <p>Turku, 20100</p></MDBCol>
                   <MDBCol><MDBIcon icon="phone" size="2x" className="mt-5" />
-                  <p>+ 01 234 567 89</p></MDBCol>
+                  <p>+358***********</p></MDBCol>
                   <MDBCol><MDBIcon icon="envelope" size="2x" className="mt-5" />
                   <p>contact@example.com</p></MDBCol>
                 </MDBRow>

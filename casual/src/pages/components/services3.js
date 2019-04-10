@@ -15,83 +15,10 @@ const Services3 = () => (
       <p className="grey-text text-center w-responsive mx-auto mb-5">
         Tarvitsetko yrityksellesi hintaluettelon tarjoamistanne palveluista?
       </p>
-      <MDBRow className="justify-content-center">
-        <MDBCol lg="4" md="8" className="mb-lg-0 mb-4">
-          <MDBCard wide ecommerce>
-            <MDBCardImage
-              cascade
-              src={img1}
-              top
-              alt="sample photo"
-            />
-            <MDBCardBody cascade className="text-center">
-              <a href="#!" className="text-muted">
-                <h5>Service</h5>
-              </a>
-              <MDBCardText>
-                Lorem ipsum dolor sit amet, consectetur adipisicing minima
-                veniam elit.
-              </MDBCardText>
-              <MDBCardFooter className="px-1">
-                  <strong>€</strong>
-              </MDBCardFooter>
-            </MDBCardBody>
-          </MDBCard>
-        </MDBCol>
-        <MDBCol lg="4" md="8" className="mb-lg-0 mb-4">
-          <MDBCard wide ecommerce>
-            <MDBCardImage
-              cascade
-              src={img2}
-              top
-              alt="sample photo"
-            />
-            <MDBCardBody cascade className="text-center">
-              <a href="#!" className="text-muted">
-                <h5>Service</h5>
-              </a>
-              <MDBCardText>
-                Lorem ipsum dolor sit amet, consectetur adipisicing minima
-                veniam elit.
-              </MDBCardText>
-              <MDBCardFooter className="px-1">
-                  <strong>€</strong>
-              </MDBCardFooter>
-            </MDBCardBody>
-          </MDBCard>
-        </MDBCol>
-        <MDBCol lg="4" md="8" className="mb-lg-0 mb-4">
-          <MDBCard wide ecommerce>
-            <MDBCardImage
-              cascade
-              src={img4}
-              top
-              alt="sample photo"
-            />
-            <MDBCardBody cascade className="text-center">
-              <a href="#!" className="text-muted">
-                <h5>Service</h5>
-              </a>
-              <MDBCardText>
-                Lorem ipsum dolor sit amet, consectetur adipisicing minima
-                veniam elit.
-              </MDBCardText>
-              <MDBCardFooter className="px-1">
-                  <strong>€</strong>
-              </MDBCardFooter>
-            </MDBCardBody>
-          </MDBCard>
-        </MDBCol>
-      </MDBRow>
       <MDBRow className="justify-content-center my-5" >
         <MDBCol lg="4" md="8" className="mb-lg-0 mb-4">
-          <MDBCard wide ecommerce>
-            <MDBCardImage
-              cascade
-              src={img1}
-              top
-              alt="sample photo"
-            />
+          <MDBCard style={{boxShadow:"none"}} wide ecommerce>
+            <MDBIcon fab icon="autoprefixer" />
             <MDBCardBody cascade className="text-center">
               <a href="#!" className="text-muted">
                 <h5>Service</h5>
@@ -100,20 +27,12 @@ const Services3 = () => (
                 Lorem ipsum dolor sit amet, consectetur adipisicing minima
                 veniam elit.
               </MDBCardText>
-              <MDBCardFooter className="px-1">
-                  <strong>€</strong>
-              </MDBCardFooter>
             </MDBCardBody>
           </MDBCard>
         </MDBCol>
         <MDBCol lg="4" md="8" className="mb-lg-0 mb-4">
-          <MDBCard wide ecommerce>
-            <MDBCardImage
-              cascade
-              src={img5}
-              top
-              alt="sample photo"
-            />
+          <MDBCard style={{boxShadow:"none"}}>
+            <MDBIcon fab icon="autoprefixer" />
             <MDBCardBody cascade className="text-center">
               <a href="#!" className="text-muted">
                 <h5>Service</h5>
@@ -122,20 +41,12 @@ const Services3 = () => (
                 Lorem ipsum dolor sit amet, consectetur adipisicing minima
                 veniam elit.
               </MDBCardText>
-              <MDBCardFooter className="px-1">
-                  <strong>€</strong>
-              </MDBCardFooter>
             </MDBCardBody>
           </MDBCard>
         </MDBCol>
-        <MDBCol lg="4" md="8" className="mb-lg-0 mb-4">
-          <MDBCard wide ecommerce>
-            <MDBCardImage
-              cascade
-              src={img6}
-              top
-              alt="sample photo"
-            />
+        <MDBCol  lg="4" md="8" className="mb-lg-0 mb-4">
+          <MDBCard style={{boxShadow:"none"}}>
+            <MDBIcon fab icon="autoprefixer" />
             <MDBCardBody cascade className="text-center">
               <a href="#!" className="text-muted">
                 <h5>Service</h5>
@@ -144,9 +55,6 @@ const Services3 = () => (
                 Lorem ipsum dolor sit amet, consectetur adipisicing minima
                 veniam elit.
               </MDBCardText>
-              <MDBCardFooter className="px-1">
-                  <strong>€</strong>
-              </MDBCardFooter>
             </MDBCardBody>
           </MDBCard>
         </MDBCol>

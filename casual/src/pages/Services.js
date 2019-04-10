@@ -18,7 +18,6 @@ class Services extends React.Component {
            border3:""
        };
        this.onclick = this.onclick.bind(this);
-
    }
 onclick(e){
   if(e == "btn1")
@@ -61,17 +60,19 @@ onclick(e){
   {
     return (
       <div>
-          <Navbar></Navbar>
-          <MDBContainer fluid>
-            <MDBRow mt="0">
-              <MDBCol md="2" my="5">
-                    <MDBBtn style={{borderTop:this.state.border1,borderLeft:this.state.border1, borderRight:this.state.border1}}id ="btn1"onClick={e => this.onclick(e.target.id)} color="dark" >Palveluni 1</MDBBtn><br></br>
-                    <MDBBtn style={{borderTop:this.state.border2,borderLeft:this.state.border2, borderRight:this.state.border2}} id ="btn2"onClick={e => this.onclick(e.target.id)}color="dark" >Palveluni 2</MDBBtn><br></br>
-                    <MDBBtn style={{borderTop:this.state.border3,borderLeft:this.state.border3, borderRight:this.state.border3}} id ="btn3"onClick={e => this.onclick(e.target.id)}color="dark" >Palveluni 3</MDBBtn><br></br>
-              </MDBCol>
-              <MDBCol sm="8">
-                <Services1></Services1>
-              </MDBCol>
+        <Navbar></Navbar>
+        <MDBContainer>
+          <MDBRow>
+            <MDBCol>
+              <Services1></Services1>
+            </MDBCol>
+          </MDBRow>
+          <MDBRow>
+            <MDBCol>
+              <MDBBtn style={{borderTop:this.state.border1}}id ="btn1"onClick={e => this.onclick(e.target.id)} color="dark" >Palveluni 1</MDBBtn>
+              <MDBBtn style={{borderTop:this.state.border2}} id ="btn2"onClick={e => this.onclick(e.target.id)}color="dark" >Palveluni 2</MDBBtn>
+              <MDBBtn style={{borderTop:this.state.border3}} id ="btn3"onClick={e => this.onclick(e.target.id)}color="dark" >Palveluni 3</MDBBtn>
+            </MDBCol>
             </MDBRow>
           </MDBContainer>
       </div>
@@ -80,17 +81,19 @@ onclick(e){
   else if (this.state.services2 == true){
     return (
       <div>
-          <Navbar></Navbar>
-          <MDBContainer fluid>
-            <MDBRow mt="0">
-              <MDBCol md="2" my="5">
-                    <MDBBtn id ="btn1"onClick={e => this.onclick(e.target.id)} color="dark" >Palveluni 1</MDBBtn><br></br>
-                    <MDBBtn id ="btn2"onClick={e => this.onclick(e.target.id)}color="dark" >Palveluni 2</MDBBtn><br></br>
-                    <MDBBtn id ="btn3"onClick={e => this.onclick(e.target.id)}color="dark" >Palveluni 3</MDBBtn><br></br>
-              </MDBCol>
-              <MDBCol sm="8">
-                <Services2></Services2>
-              </MDBCol>
+        <Navbar></Navbar>
+        <MDBContainer>
+          <MDBRow>
+            <MDBCol>
+              <Services2></Services2>
+            </MDBCol>
+          </MDBRow>
+          <MDBRow>
+            <MDBCol>
+              <MDBBtn style={{borderTop:this.state.border1}}id ="btn1"onClick={e => this.onclick(e.target.id)} color="dark" >Palveluni 1</MDBBtn>
+              <MDBBtn style={{borderTop:this.state.border2}} id ="btn2"onClick={e => this.onclick(e.target.id)}color="dark" >Palveluni 2</MDBBtn>
+              <MDBBtn style={{borderTop:this.state.border3}} id ="btn3"onClick={e => this.onclick(e.target.id)}color="dark" >Palveluni 3</MDBBtn>
+            </MDBCol>
             </MDBRow>
           </MDBContainer>
       </div>
@@ -99,23 +102,24 @@ onclick(e){
   else{
     return (
       <div>
-          <Navbar></Navbar>
-          <MDBContainer fluid>
-            <MDBRow mt="0">
-              <MDBCol md="2" my="5">
-                    <MDBBtn id ="btn1"onClick={e => this.onclick(e.target.id)} color="dark" >Palveluni 1</MDBBtn><br></br>
-                    <MDBBtn id ="btn2"onClick={e => this.onclick(e.target.id)}color="dark" >Palveluni 2</MDBBtn><br></br>
-                    <MDBBtn id ="btn3"onClick={e => this.onclick(e.target.id)}color="dark" >Palveluni 3</MDBBtn><br></br>
-              </MDBCol>
-              <MDBCol sm="8">
-                <Services3></Services3>
-              </MDBCol>
+        <Navbar></Navbar>
+        <MDBContainer>
+          <MDBRow>
+            <MDBCol>
+              <Services3></Services3>
+            </MDBCol>
+          </MDBRow>
+          <MDBRow>
+            <MDBCol>
+              <MDBBtn style={{borderTop:this.state.border1}}id ="btn1"onClick={e => this.onclick(e.target.id)} color="dark" >Palveluni 1</MDBBtn>
+              <MDBBtn style={{borderTop:this.state.border2}} id ="btn2"onClick={e => this.onclick(e.target.id)}color="dark" >Palveluni 2</MDBBtn>
+              <MDBBtn style={{borderTop:this.state.border3}} id ="btn3"onClick={e => this.onclick(e.target.id)}color="dark" >Palveluni 3</MDBBtn>
+            </MDBCol>
             </MDBRow>
           </MDBContainer>
       </div>
     );
   }
-
 }
 }
 

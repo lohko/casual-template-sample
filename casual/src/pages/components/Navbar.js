@@ -45,7 +45,7 @@ class Navbar extends Component {
               <MDBCollapse isOpen = { this.state.collapse } navbar>
                 <MDBNavbarNav right>
                   <MDBNavItem>
-                      <a onClick={this.updateSelected} style={{fontSize:"0.9em", paddingRight:"12px", color:"#181819", fontFamily:"'Raleway', sans-serif"}} href="/">HOME</a>
+                      <a onClick={this.updateSelected} style={{textDecoration:this.state.selected,fontSize:"0.9em", paddingRight:"12px", color:"#181819", fontFamily:"'Raleway', sans-serif"}} href="/">HOME</a>
                   </MDBNavItem>
                   <MDBNavItem>
                     <a onClick={this.updateSelected} style={{fontSize:"0.9em", paddingRight:"12px", color:"#181819", fontFamily:"'Raleway', sans-serif"}} href="/About">ABOUT</a>
