@@ -1,11 +1,6 @@
 import React from 'react';
-import { MDBContainer,MDBCollapse, MDBRow, MDBCol, MDBCard, MDBCardImage, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardFooter, MDBIcon, MDBTooltip,  MDBBadge, MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBBtn } from "mdbreact";
-import img1 from '../../styles/a.jpg'
-import img2 from '../../styles/b.jpg'
-import img3 from '../../styles/c.jpg'
-import img4 from '../../styles/d.jpg'
-import img5 from '../../styles/e.jpg'
-import img6 from '../../styles/f.jpg'
+import { MDBRow, MDBCol, MDBCard, MDBCardBody,MDBCardText, MDBIcon } from "mdbreact";
+
 
 const Services2 = () => (
   <section className="text-center">

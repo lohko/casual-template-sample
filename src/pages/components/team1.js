@@ -1,8 +1,7 @@
 import React from 'react';
 import profilepic1 from '../../styles/profilepic1.jpg'
-import profilepic2 from '../../styles/profilepic2.jpg'
-import batman from '../../styles/l.jpg'
-import {MDBView,MDBMask,  MDBBtn,MDBRow,MDBMedia, MDBCardImage,MDBCol,MDBContainer, MDBCard, MDBAvatar, MDBCardBody, MDBIcon } from "mdbreact";
+import batman from '../../styles/batman.jpg'
+import {MDBView,MDBMask, MDBCol } from "mdbreact";
 
 const team1 = () => (
   <MDBCol lg="3" md="6" className="mb-lg-0 mb-5 pt-3">

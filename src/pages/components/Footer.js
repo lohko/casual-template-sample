@@ -1,7 +1,5 @@
 import React from "react";
-import { MDBCol, MDBContainer, MDBRow, MDBFooter,MDBIcon } from "mdbreact";
-import { BrowserRouter as Router } from 'react-router-dom';
-import Routes from './Routes';
+import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 import "../../styles/style.css";
 import "../../index.css";
 

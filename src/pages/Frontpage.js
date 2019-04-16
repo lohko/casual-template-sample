@@ -1,15 +1,9 @@
 import React, { Component } from 'react';
-import { MDBContainer
-        ,MDBView
-        ,MDBCard,MDBCardImage,MDBCardTitle
-        ,MDBCardBody,MDBCardText
-        ,MDBMask, MDBRow, MDBCol,MDBBtn
-        ,MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBIcon } from 'mdbreact';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { MDBContainer,MDBCard,MDBCardBody,MDBRow, MDBCol,MDBBtn, MDBIcon } from 'mdbreact';
 import "../styles/style.css";
 import Navbar from "./components/Navbar";
 
-class Frontpage extends React.Component {
+class Frontpage extends Component {
 
   render() {
     return(

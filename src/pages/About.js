@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
 import "../styles/style.css";
 import Navbar from "./components/Navbar";
-import {MDBView,MDBMask,  MDBBtn,MDBRow,MDBMedia, MDBCardImage,MDBCol,MDBContainer, MDBCard, MDBAvatar, MDBCardBody, MDBIcon } from "mdbreact";
-import profilepic1 from '../styles/profilepic1.jpg'
-import profilepic2 from '../styles/profilepic2.jpg'
-import batman from '../styles/l.jpg'
+import {MDBRow,MDBContainer, MDBCard,  MDBCardBody } from "mdbreact";
 import Team1 from "./components/team1";
 import Team2 from "./components/team2";
 
-class About extends React.Component {
+class About extends Component {
   render() {
     return(
       <div>

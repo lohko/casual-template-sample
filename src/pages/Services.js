@@ -1,12 +1,12 @@
 import React, {Component} from "react";
-import { MDBContainer,MDBCollapse, MDBRow, MDBCol, MDBCard, MDBCardImage, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardFooter, MDBIcon, MDBTooltip,  MDBBadge, MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBBtn } from "mdbreact";
+import { MDBContainer, MDBRow, MDBCol, MDBBtn } from "mdbreact";
 import Navbar from "./components/Navbar";
 import Services1 from "./components/services1";
 import Services2 from "./components/services2";
 import Services3 from "./components/services3";
 import "../styles/style.css";
 
-class Services extends React.Component {
+class Services extends Component {
   constructor(props) {
        super(props);
        this.state = {
@@ -20,7 +20,7 @@ class Services extends React.Component {
        this.onclick = this.onclick.bind(this);
    }
 onclick(e){
-  if(e == "btn1")
+  if(e === "btn1")
   {
     this.setState({
       border1:"solid",
@@ -31,7 +31,7 @@ onclick(e){
       services3:false
     });
   }
-  else if(e == "btn2")
+  else if(e === "btn2")
   {
     this.setState({
       border1:"",
@@ -42,7 +42,7 @@ onclick(e){
       Services3:false
     });
   }
-  else if(e == "btn3")
+  else if(e === "btn3")
   {
     this.setState({
       border1:"",
@@ -56,7 +56,7 @@ onclick(e){
 }
 
   render(){
-  if(this.state.services1 == true)
+  if(this.state.services1 === true)
   {
     return (
       <div>
@@ -78,7 +78,7 @@ onclick(e){
       </div>
     );
   }
-  else if (this.state.services2 == true){
+  else if (this.state.services2 === true){
     return (
       <div>
         <Navbar></Navbar>

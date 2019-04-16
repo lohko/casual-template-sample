@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import "../styles/style.css";
 import Navbar from "./components/Navbar";
-import { MDBRow, MDBCol, MDBCard, MDBContainer,MDBCardBody, MDBIcon, MDBBtn, MDBInput } from "mdbreact";
+import { MDBRow, MDBCol, MDBContainer, MDBIcon, MDBBtn, MDBInput } from "mdbreact";
 
 class Contact extends React.Component {
 
@@ -77,6 +77,7 @@ class Contact extends React.Component {
                   </MDBBtn>
                 </div>
                 <iframe
+                  title="facebook"
                   height="500"
                   src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
                   style={{
