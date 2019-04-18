@@ -1,22 +1,12 @@
-body, html {
+body,
+html {
   height: 100%;
-  font-family: 'Raleway', sans-serif;
-
+  font-family: "Raleway", sans-serif !important;
 }
 .bg {
-  z-index: 999;
   background-image: url("v.jpg");
-  height: 80vh;
+  height: 70vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-.bg p, .bg h4{
-
-}
-#btn1, #btn2, #btn3{
-  background: transparent !important;
-  color:black;
-  box-shadow: none;
-  border-bottom: solid;
 }

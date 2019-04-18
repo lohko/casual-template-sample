@@ -1,126 +1,190 @@
-import React, {Component} from "react";
-import { MDBContainer, MDBRow, MDBCol, MDBBtn } from "mdbreact";
+import React, { Component } from "react";
+import {
+  MDBContainer,
+  MDBRow,
+  MDBCol,
+  MDBCard,
+  MDBCardBody,
+  MDBBtn
+} from "mdbreact";
 import Navbar from "./components/Navbar";
-import Services1 from "./components/services1";
-import Services2 from "./components/services2";
-import Services3 from "./components/services3";
+
 import "../styles/style.css";
 
 class Services extends Component {
-  constructor(props) {
-       super(props);
-       this.state = {
-           services1: true,
-           services2:false,
-           services3:false,
-           border1:"solid",
-           border2:"",
-           border3:""
-       };
-       this.onclick = this.onclick.bind(this);
-   }
-onclick(e){
-  if(e === "btn1")
-  {
-    this.setState({
-      border1:"solid",
-      border2:"",
-      border3:"",
-      services1:true,
-      services2:false,
-      services3:false
-    });
-  }
-  else if(e === "btn2")
-  {
-    this.setState({
-      border1:"",
-      border2:"solid",
-      border3:"",
-      services1:false,
-      services2:true,
-      Services3:false
-    });
-  }
-  else if(e === "btn3")
-  {
-    this.setState({
-      border1:"",
-      border2:"",
-      border3:"solid",
-      services1:false,
-      services2:false,
-      Services3:true
-    });
-  }
-}
+  render() {
+    return (
+      <div>
+        <Navbar />
 
-  render(){
-  if(this.state.services1 === true)
-  {
-    return (
-      <div>
-        <Navbar></Navbar>
-        <MDBContainer>
+        <MDBContainer className="text-center mb-5">
+          <h2 className="h1-responsive font-weight-bold text-center ">
+            Our pricing plans
+          </h2>
+          <p className="grey-text text-center w-responsive mx-auto mb-5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
+            error amet numquam iure provident voluptate esse quasi, veritatis
+            totam voluptas nostrum quisquam eum porro a pariatur veniam.
+          </p>
           <MDBRow>
-            <MDBCol>
-              <Services1></Services1>
+            <MDBCol lg="4" md="12" className="mb-lg-0 mb-4">
+              <MDBCard
+                className="card-image"
+                style={{
+                  backgroundImage:
+                    'url("https://mdbootstrap.com/img/Photos/Others/pricing-table%20(6).jpg")'
+                }}
+              >
+                <div className="text-white text-center pricing-card d-flex align-items-center rgba-stylish-strong py-3 px-3 rounded">
+                  <MDBCardBody>
+                    <h5>Basic</h5>
+                    <div className="price pt-0">
+                      <h2 className="number mb-0">10€/kk</h2>
+                    </div>
+                    <ul
+                      className="mb-0"
+                      style={{ listStyleType: "none", padding: "0" }}
+                    >
+                      <li>
+                        <p>
+                          <strong>1</strong> project
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          <strong>100</strong> components
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          <strong>150</strong> features
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          <strong>200</strong> members
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          <strong>250</strong> messages
+                        </p>
+                      </li>
+                    </ul>
+                    <MDBBtn outline color="white">
+                      Buy now
+                    </MDBBtn>
+                  </MDBCardBody>
+                </div>
+              </MDBCard>
+            </MDBCol>
+            <MDBCol lg="4" md="12" className="mb-lg-0 mb-4">
+              <MDBCard
+                className="card-image"
+                style={{
+                  backgroundImage:
+                    'url("https://mdbootstrap.com/img/Photos/Others/pricing-table%20(6).jpg")'
+                }}
+              >
+                <div className="text-white text-center pricing-card d-flex align-items-center rgba-teal-strong py-3 px-3 rounded">
+                  <MDBCardBody>
+                    <h5>Pro</h5>
+                    <div className="price pt-0">
+                      <h2 className="number mb-0">20€/kk</h2>
+                    </div>
+                    <ul
+                      className="mb-0"
+                      style={{ listStyleType: "none", padding: "0" }}
+                    >
+                      <li>
+                        <p>
+                          <strong>3</strong> projects
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          <strong>200</strong> components
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          <strong>250</strong> features
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          <strong>300</strong> members
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          <strong>350</strong> messages
+                        </p>
+                      </li>
+                    </ul>
+                    <MDBBtn outline color="white">
+                      Buy now
+                    </MDBBtn>
+                  </MDBCardBody>
+                </div>
+              </MDBCard>
+            </MDBCol>
+            <MDBCol lg="4" md="12" className="mb-lg-0 mb-4">
+              <MDBCard
+                className="card-image"
+                style={{
+                  backgroundImage:
+                    'url("https://mdbootstrap.com/img/Photos/Others/pricing-table%20(6).jpg")'
+                }}
+              >
+                <div className="text-white text-center pricing-card d-flex align-items-center rgba-stylish-strong py-3 px-3 rounded">
+                  <MDBCardBody>
+                    <h5>Enterprise</h5>
+                    <div className="price pt-0">
+                      <h2 className="number mb-0">30€/kk</h2>
+                    </div>
+                    <ul
+                      className="mb-0"
+                      style={{ listStyleType: "none", padding: "0" }}
+                    >
+                      <li>
+                        <p>
+                          <strong>5</strong> projects
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          <strong>300</strong> components
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          <strong>350</strong> features
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          <strong>400</strong> members
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          <strong>450</strong> messages
+                        </p>
+                      </li>
+                    </ul>
+                    <MDBBtn outline color="white">
+                      Buy now
+                    </MDBBtn>
+                  </MDBCardBody>
+                </div>
+              </MDBCard>
             </MDBCol>
           </MDBRow>
-          <MDBRow>
-            <MDBCol>
-              <MDBBtn style={{borderTop:this.state.border1}}id ="btn1"onClick={e => this.onclick(e.target.id)} color="dark" >Palveluni 1</MDBBtn>
-              <MDBBtn style={{borderTop:this.state.border2}} id ="btn2"onClick={e => this.onclick(e.target.id)}color="dark" >Palveluni 2</MDBBtn>
-              <MDBBtn style={{borderTop:this.state.border3}} id ="btn3"onClick={e => this.onclick(e.target.id)}color="dark" >Palveluni 3</MDBBtn>
-            </MDBCol>
-            </MDBRow>
-          </MDBContainer>
+        </MDBContainer>
       </div>
     );
   }
-  else if (this.state.services2 === true){
-    return (
-      <div>
-        <Navbar></Navbar>
-        <MDBContainer>
-          <MDBRow>
-            <MDBCol>
-              <Services2></Services2>
-            </MDBCol>
-          </MDBRow>
-          <MDBRow>
-            <MDBCol>
-              <MDBBtn style={{borderTop:this.state.border1}}id ="btn1"onClick={e => this.onclick(e.target.id)} color="dark" >Palveluni 1</MDBBtn>
-              <MDBBtn style={{borderTop:this.state.border2}} id ="btn2"onClick={e => this.onclick(e.target.id)}color="dark" >Palveluni 2</MDBBtn>
-              <MDBBtn style={{borderTop:this.state.border3}} id ="btn3"onClick={e => this.onclick(e.target.id)}color="dark" >Palveluni 3</MDBBtn>
-            </MDBCol>
-            </MDBRow>
-          </MDBContainer>
-      </div>
-    );
-  }
-  else{
-    return (
-      <div>
-        <Navbar></Navbar>
-        <MDBContainer>
-          <MDBRow>
-            <MDBCol>
-              <Services3></Services3>
-            </MDBCol>
-          </MDBRow>
-          <MDBRow>
-            <MDBCol>
-              <MDBBtn style={{borderTop:this.state.border1}}id ="btn1"onClick={e => this.onclick(e.target.id)} color="dark" >Palveluni 1</MDBBtn>
-              <MDBBtn style={{borderTop:this.state.border2}} id ="btn2"onClick={e => this.onclick(e.target.id)}color="dark" >Palveluni 2</MDBBtn>
-              <MDBBtn style={{borderTop:this.state.border3}} id ="btn3"onClick={e => this.onclick(e.target.id)}color="dark" >Palveluni 3</MDBBtn>
-            </MDBCol>
-            </MDBRow>
-          </MDBContainer>
-      </div>
-    );
-  }
-}
 }
 
 export default Services;
