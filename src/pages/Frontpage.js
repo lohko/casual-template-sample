@@ -25,8 +25,8 @@ class Frontpage extends Component {
                   md="5"
                   className="white-text text-center text-md-left mt-xl-5 mb-5 offset-md-2"
                 >
-                  <h1 style={{ fontSize: "3.4rem", color: "white" }}>
-                    THIS IS CASUAL SAMPLE PAGE.
+                  <h1 style={{ fontSize: "3.6rem", color: "white" }}>
+                    TÄMÄ ON CASUAL TEMPLATE
                   </h1>
                   <MDBBtn
                     color="info"
@@ -35,7 +35,7 @@ class Frontpage extends Component {
                     rounded
                     size="md"
                   >
-                    Read more
+                    Lue lisää
                   </MDBBtn>
                 </MDBCol>
               </MDBRow>
@@ -51,12 +51,13 @@ class Frontpage extends Component {
                 </MDBCol>
                 <MDBCol size="11">
                   <h5>
-                    <strong>ESITTELY</strong>
+                    <strong>Mikä on Casual?</strong>
                   </h5>
                   <p>
-                    Nam libero tempore, cum soluta nobis est eligendi optio
-                    cumque nihil impedit quo minus id quod maxime placeat facere
-                    possimus voluptas.
+                    Casual-sivupohjamme tarjoaa perinteisen sivukokonaisuuden.
+                    Kokonaisuus sisältää scrollattavan etusivun lisäksi useamman
+                    välilehden, joten pohja sopii hyvin yrityksille, joilla on
+                    paljon sisältöä sivuillaan.
                   </p>
                 </MDBCol>
               </MDBRow>
@@ -68,12 +69,13 @@ class Frontpage extends Component {
                 </MDBCol>
                 <MDBCol size="11">
                   <h5>
-                    <strong>ESITTELY</strong>
+                    <strong>Miksi valita Casual?</strong>
                   </h5>
                   <p>
-                    Nam libero tempore, cum soluta nobis est eligendi optio
-                    cumque nihil impedit quo minus id quod maxime placeat facere
-                    possimus voluptas.
+                    Casual on oiva tapa esitellä yrityksen erilaisia palveluja
+                    jaettuna eri sivuille selkeästi. Sivupohjalle on erittäin
+                    helppoa myös lisätä asiakkaalle kustomoituja plugineja
+                    parhaan käytäjäkokemuksen takaamiseksi.
                   </p>
                 </MDBCol>
               </MDBRow>
@@ -81,21 +83,22 @@ class Frontpage extends Component {
           </MDBRow>
         </MDBContainer>
         <MDBContainer className="my-5">
-          <h2 className="text-center">Signup for our newsletter</h2>
+          <h2 className="text-center">Tilaa uutiskirjeemme!</h2>
           <p className="text-center">
-            Stay updated and get our latest news right into your inbox. No spam.
+            Pysy kartalla tapahtumistamme ja tarjouksistamme tilaamalla
+            uutiskirjeemme.
           </p>
           <MDBRow className="justify-content-center">
             <MDBCol md="6">
               <MDBInput
                 type="text"
                 id="contact-newsletter"
-                label="Order our newsletter!"
+                label="Täytä sähköpostiosoitteesi"
               />
             </MDBCol>
             <MDBCol md="3" className="text-center mt-3">
               <MDBBtn color="info" style={{ margin: "0", width: "100%" }}>
-                Order
+                Tilaa
               </MDBBtn>
             </MDBCol>
           </MDBRow>

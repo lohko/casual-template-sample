@@ -17,21 +17,25 @@ class Contact extends React.Component {
         <Navbar />
         <MDBContainer>
           <h2 className="h1-responsive font-weight-bold text-center ">
-            Contact us
+            Ota yhteyttä
           </h2>
           <MDBRow>
             <MDBCol md="9">
               <MDBRow>
                 <MDBCol md="6">
-                  <MDBInput type="text" id="contact-name" label="Your name" />
+                  <MDBInput type="text" id="contact-name" label="Nimesi" />
                 </MDBCol>
                 <MDBCol md="6">
-                  <MDBInput type="text" id="contact-email" label="Your email" />
+                  <MDBInput
+                    type="text"
+                    id="contact-email"
+                    label="Sähköpostiosoite"
+                  />
                 </MDBCol>
               </MDBRow>
               <MDBRow>
                 <MDBCol md="12">
-                  <MDBInput type="text" id="contact-subject" label="Subject" />
+                  <MDBInput type="text" id="contact-subject" label="Aihe" />
                 </MDBCol>
               </MDBRow>
               <MDBRow>
@@ -39,12 +43,12 @@ class Contact extends React.Component {
                   <MDBInput
                     type="textarea"
                     id="contact-message"
-                    label="Your message"
+                    label="Viesti"
                   />
                 </MDBCol>
               </MDBRow>
               <MDBBtn color="info" size="md">
-                Send
+                Lähetä
               </MDBBtn>
               <MDBRow className="mt-5 text-center">
                 <MDBCol sm="4">
@@ -57,7 +61,7 @@ class Contact extends React.Component {
                 </MDBCol>
                 <MDBCol sm="4">
                   <MDBIcon icon="envelope" size="2x" className="mb-3" />
-                  <p>contact@example.com</p>
+                  <p>info@lohkosoftware.fi</p>
                 </MDBCol>
               </MDBRow>
             </MDBCol>

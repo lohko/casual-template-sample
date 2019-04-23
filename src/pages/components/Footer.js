@@ -13,22 +13,22 @@ const Footer = () => {
         <MDBRow className="py-4 text-center d-flex justify-content-center">
           <MDBCol md="2" className="b-3">
             <h6 className="title font-weight-bold">
-              <a href="/">Home</a>
+              <a href="/">Koti</a>
             </h6>
           </MDBCol>
           <MDBCol md="2" className="b-3">
             <h6 className="title font-weight-bold">
-              <a href="/About">About us</a>
+              <a href="/About">Tietoa meistä</a>
             </h6>
           </MDBCol>
           <MDBCol md="2" className="b-3">
             <h6 className="title font-weight-bold">
-              <a href="/Services">Services</a>
+              <a href="/Services">Palvelut</a>
             </h6>
           </MDBCol>
           <MDBCol md="2" className="b-3">
             <h6 className="title font-weight-bold">
-              <a href="/Contact">Contact</a>
+              <a href="/Contact">Ota yhteyttä</a>
             </h6>
           </MDBCol>
         </MDBRow>
@@ -36,11 +36,11 @@ const Footer = () => {
         <MDBRow className="d-flex text-center justify-content-center mb-md-0 mb-4">
           <MDBCol md="8" sm="12" className="mt-5">
             <p style={{ lineHeight: "1.7rem" }}>
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit, sed quia consequuntur.
+              Lohko Software Oy on perustettu tammikuussa 2019, tavoitteenaan
+              uudistaa yrityksien ja yhdistyksien kotisivuja nykypäivän
+              mobiililaitteille sopiviksi. Kohtelemme jokaista projektia
+              yhtäläisellä intohimolla ja rakkaudella, koska internetissä
+              kädenjälkemme säilyy todennäköisesti vielä meitäkin pidempään.
             </p>
           </MDBCol>
         </MDBRow>
@@ -53,7 +53,7 @@ const Footer = () => {
       <div className="footer-copyright text-center py-3">
         <MDBContainer fluid>
           &copy; {new Date().getFullYear()} Copyright:
-          <a href="https://www.lohkosoftware.fi"> lohkosoftware.com </a>
+          <a href="https://www.lohkosoftware.fi"> lohkosoftware.fi </a>
         </MDBContainer>
       </div>
     </MDBFooter>

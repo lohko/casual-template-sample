@@ -40,7 +40,7 @@ class Navbar extends Component {
                 style={{ fontFamily: "'Raleway', sans-serif" }}
                 to="/"
               >
-                HOME
+                Koti
               </MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
@@ -48,7 +48,7 @@ class Navbar extends Component {
                 style={{ fontFamily: "'Raleway', sans-serif" }}
                 to="/About"
               >
-                ABOUT
+                Tietoa meistä
               </MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
@@ -56,7 +56,7 @@ class Navbar extends Component {
                 style={{ fontFamily: "'Raleway', sans-serif" }}
                 to="/Services"
               >
-                SERVICES
+                Palvelut
               </MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
@@ -64,7 +64,7 @@ class Navbar extends Component {
                 style={{ fontFamily: "'Raleway', sans-serif" }}
                 to="/Contact"
               >
-                CONTACT
+                Ota yhteyttä
               </MDBNavLink>
             </MDBNavItem>
           </MDBNavbarNav>

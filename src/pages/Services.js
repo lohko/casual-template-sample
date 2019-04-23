@@ -19,12 +19,12 @@ class Services extends Component {
 
         <MDBContainer className="text-center mb-5">
           <h2 className="h1-responsive font-weight-bold text-center ">
-            Our pricing plans
+            Palvelut
           </h2>
           <p className="grey-text text-center w-responsive mx-auto mb-5">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
-            error amet numquam iure provident voluptate esse quasi, veritatis
-            totam voluptas nostrum quisquam eum porro a pariatur veniam.
+            Palvelunne voimme esitellä lukuisilla tavoilla ja sivumme esillepano
+            räätälöidään aina tarpeen mukaan. Samoin sivujen lukumäärä, sisältö
+            ja komponentit on mahdollista sovittaa sisällön vaatimalla tavalla.
           </p>
           <MDBRow>
             <MDBCol lg="4" md="12" className="mb-lg-0 mb-4">
@@ -37,7 +37,7 @@ class Services extends Component {
               >
                 <div className="text-white text-center pricing-card d-flex align-items-center rgba-stylish-strong py-3 px-3 rounded">
                   <MDBCardBody>
-                    <h5>Basic</h5>
+                    <h5>Perus</h5>
                     <div className="price pt-0">
                       <h2 className="number mb-0">10€/kk</h2>
                     </div>
@@ -47,32 +47,32 @@ class Services extends Component {
                     >
                       <li>
                         <p>
-                          <strong>1</strong> project
+                          <strong>1</strong> projekti
                         </p>
                       </li>
                       <li>
                         <p>
-                          <strong>100</strong> components
+                          <strong>100</strong> komponenttia
                         </p>
                       </li>
                       <li>
                         <p>
-                          <strong>150</strong> features
+                          <strong>150</strong> ominaisuudet
                         </p>
                       </li>
                       <li>
                         <p>
-                          <strong>200</strong> members
+                          <strong>200</strong> jäsentä
                         </p>
                       </li>
                       <li>
                         <p>
-                          <strong>250</strong> messages
+                          <strong>250</strong> viestiä
                         </p>
                       </li>
                     </ul>
                     <MDBBtn outline color="white">
-                      Buy now
+                      Osta heti
                     </MDBBtn>
                   </MDBCardBody>
                 </div>
@@ -88,7 +88,7 @@ class Services extends Component {
               >
                 <div className="text-white text-center pricing-card d-flex align-items-center rgba-teal-strong py-3 px-3 rounded">
                   <MDBCardBody>
-                    <h5>Pro</h5>
+                    <h5>Hyvä</h5>
                     <div className="price pt-0">
                       <h2 className="number mb-0">20€/kk</h2>
                     </div>
@@ -98,32 +98,32 @@ class Services extends Component {
                     >
                       <li>
                         <p>
-                          <strong>3</strong> projects
+                          <strong>3</strong> projektia
                         </p>
                       </li>
                       <li>
                         <p>
-                          <strong>200</strong> components
+                          <strong>200</strong> komponenttia
                         </p>
                       </li>
                       <li>
                         <p>
-                          <strong>250</strong> features
+                          <strong>250</strong> ominaisuudet
                         </p>
                       </li>
                       <li>
                         <p>
-                          <strong>300</strong> members
+                          <strong>300</strong> jäsentä
                         </p>
                       </li>
                       <li>
                         <p>
-                          <strong>350</strong> messages
+                          <strong>350</strong> viestiä
                         </p>
                       </li>
                     </ul>
                     <MDBBtn outline color="white">
-                      Buy now
+                      Osta heti
                     </MDBBtn>
                   </MDBCardBody>
                 </div>
@@ -139,7 +139,7 @@ class Services extends Component {
               >
                 <div className="text-white text-center pricing-card d-flex align-items-center rgba-stylish-strong py-3 px-3 rounded">
                   <MDBCardBody>
-                    <h5>Enterprise</h5>
+                    <h5>Tosi hyvä</h5>
                     <div className="price pt-0">
                       <h2 className="number mb-0">30€/kk</h2>
                     </div>
@@ -149,32 +149,32 @@ class Services extends Component {
                     >
                       <li>
                         <p>
-                          <strong>5</strong> projects
+                          <strong>5</strong> projektia
                         </p>
                       </li>
                       <li>
                         <p>
-                          <strong>300</strong> components
+                          <strong>300</strong> komponenttia
                         </p>
                       </li>
                       <li>
                         <p>
-                          <strong>350</strong> features
+                          <strong>350</strong> ominaisuudet
                         </p>
                       </li>
                       <li>
                         <p>
-                          <strong>400</strong> members
+                          <strong>400</strong> jäsentä
                         </p>
                       </li>
                       <li>
                         <p>
-                          <strong>450</strong> messages
+                          <strong>450</strong> viestiä
                         </p>
                       </li>
                     </ul>
                     <MDBBtn outline color="white">
-                      Buy now
+                      Osta heti
                     </MDBBtn>
                   </MDBCardBody>
                 </div>

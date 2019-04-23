@@ -12,7 +12,7 @@ class About extends Component {
         <Navbar />
         <MDBContainer className="text-center mb-5">
           <h2 className="h1-responsive font-weight-bold text-center ">
-            Our team
+            Tietoa meistä
           </h2>
           <p>Tietoa yrityksestä</p>
           <MDBCard
